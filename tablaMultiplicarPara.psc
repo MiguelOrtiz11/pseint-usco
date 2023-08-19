@@ -1,4 +1,4 @@
-Algoritmo tablaMultiplicar
+Algoritmo sin_titulo
 	//Crear un programa que muestre una tabla de multiplicar positiva
 	Repetir
 		Escribir "Digite la tabla a mostra";
@@ -6,12 +6,10 @@ Algoritmo tablaMultiplicar
 	Mientras Que tabla < 1
 	
 	Escribir "Tabla del ", tabla;
-	mul <- 1;
-	Mientras mul <= 10 Hacer
+	Para mul <- 1 Hasta 10 Con Paso 1 Hacer
 		Escribir tabla, " * ", mul, " = ", tabla * mul;
-		mul <- mul + 1;
-	FinMientras
+	Fin Para
 	
-	
+	Escribir mul;
 	
 FinAlgoritmo
